@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    
+    <style>
+      .jumbotron {
+         background-image:url(images/music.jpg);
+         background-size: auto 100%;
+         color:white;
+         text-align:center;
+      }
+      
+      hr {
+         border-top: 1px solid yellow;
+      }
+      
+      #email {
+         width:300px;
+      }
+      
+      #signupForm {
+         margin-left:455px;
+      }
+      
+      #appSummary {
+         text-align:center;
+         margin-top: 100px;
+         margin-bottom:100px;
+         margin-left:100px;
+      }
+      
+      #appStore {
+         weight:200px;
+         height:250px;
+         margin-top:40px;
+         margin-bottom:40px;
+         text-align:center;
+         background-color:aqua;
+         padding-top:50px;
+      }
+      
+      #playstore {
+         width:250px;
+      }
+      
+    </style>
+    <script src="https://kit.fontawesome.com/9d6744a17a.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
+  <a class="navbar-brand" href="#">VickyMusicStore</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#appStore">Download The App</a>
+      </li>
+    </ul>
+    <form class="form-inline">
+     <label class="sr-only" for="inlineFormInputName2">Email</label>
+     <input type="email" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Email">
+     
+     <label class="sr-only" for="inlineFormInputPassword">Email</label>
+     <input type="email" class="form-control mb-2 mr-sm-2" id="inlineFormInputPassword" placeholder="Password">
+
+     <button type="submit" class="btn btn-primary mb-2">Login</button>
+</form>
+  </div>
+</nav>
+
+   <div class="jumbotron" id="home">
+     <h1 class="display-4">My Music Store!</h1>
+     <p class="lead">Welcome to my music store. Here you can listen my music collection and download the App</p>
+     <hr class="my-4">
+     <p>Want to know more? Join our mailing list!</p>
+     <form class="form-inline" id="signupForm">
+        <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
+        <div class="input-group mb-2 mr-sm-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text">@</div>
+          </div>
+          <input type="email" class="form-control" id="email" placeholder="Your email">
+        </div>
+
+        <button type="submit" class="btn btn-primary mb-2">Sign up</button>
+     </form>
+  </div>
+  
+   <div class="container">
+      <div class="row" id="appSummary">
+         <div class="col-md-6">
+            <h1> Why This App is Awesome</h1>
+            <p class="lead">Summary, awesome collection of music!</p>
+         </div>
+      </div>
+   </div>
+   
+   <div class="container" id="about">
+      <div class="card-deck">
+        <div class="card">
+          <img src="images/img.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fas fa-music"></i> Music and Health</h5>
+            <p class="card-text">Studies have shown that music can buoy your mood and fend off depression. It can also improve blood flow in ways similar to statins, lower your levels of stress-related hormones like cortisol and ease pain. Listening to music before an operation can even improve post-surgery outcomes.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/img.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fas fa-music"></i> Music and Health</h5>
+            <p class="card-text">Studies have shown that music can buoy your mood and fend off depression. It can also improve blood flow in ways similar to statins, lower your levels of stress-related hormones like cortisol and ease pain. Listening to music before an operation can even improve post-surgery outcomes.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/img.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fas fa-music"></i> Music and Health</h5>
+            <p class="card-text">Studies have shown that music can buoy your mood and fend off depression. It can also improve blood flow in ways similar to statins, lower your levels of stress-related hormones like cortisol and ease pain. Listening to music before an operation can even improve post-surgery outcomes.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+     </div>
+  </div>
+  
+   <div class="container" id="appStore">
+      <div class="row">
+         <div class="col-sm-12">
+            <h2> Download the app! </h2>
+         </div>
+         <div class="col-sm-12">
+            <p class="lead">Really, why should I download this app??</p>
+            <a href="https://play.google.com/store" target="blank"><img src="images/playstore.png" id="playstore"></a>
+         </div>
+
+   </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
